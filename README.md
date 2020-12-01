@@ -1,6 +1,10 @@
-# corridors_rmi
-1st laboratory work on the course "Distributed systems"
+## 1. Game - Corridors. Technology - RMI.
+1. Run rmiregistry (from 'src' folder) `start C:\...\rmiregistry.exe`  
+1. Run server: `Server.java`  
+1. Run clients: `Сlient.java`
 
-Run rmiregistry (from 'src' folder) `start B:\temp\bin\rmiregistry.exe`  
-Run server: `Server.py`  
-Run clients: `Сlient.py`
+## 2. Task - Public Library. Technology - SOAP.
+1. Run server: `LibraryService.java`
+1. Build remote server class (from 'wsclient\src\main\java' folder):  
+`C:\...\wsimport.exe  http://localhost:8080/Library?wsdl -keep`
+1. Run client: `ClientApp.java`
